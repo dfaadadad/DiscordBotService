@@ -45,7 +45,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is now online!`)
 
-    bot.user.setActivity("me getting developed..", { type: "WATCHING" });
+    bot.user.setActivity("!help", { type: "PLAYING" });
 
 });
 
