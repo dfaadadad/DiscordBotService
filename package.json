@@ -1,0 +1,24 @@
+{
+  "name": "discord-bot-service",
+  "version": "1.0.0",
+  "description": "The Official Discord Bot Service Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon"
+  },
+  "keywords": [
+    "bot",
+    "service"
+  ],
+  "author": "elit3 Dave",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.5.1",
+    "ms": "^2.1.2",
+    "superagent": "^5.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  }
+}
