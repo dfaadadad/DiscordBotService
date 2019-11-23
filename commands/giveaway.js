@@ -30,6 +30,8 @@ module.exports.run = async(bot, message, args) =>{
      embedSend.react("🎉"); 
 
      setTimeout(function()  {
+
+        
       
         var random = 0; 
         var winners = [];

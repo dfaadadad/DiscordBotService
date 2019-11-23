@@ -18,6 +18,8 @@ fs.readdir("./commands/", (err, files) => {
      console.log("Cannot find files");
      return; 
 
+
+
   }
 
 
@@ -134,4 +136,4 @@ bot.on("message", async message => {
 });
 
 
-bot.login(process.env.token);
+bot.login(botConfig.token);
