@@ -55,6 +55,15 @@ bot.on("guildMemberAdd", member => {
 
     var role = member.guild.roles.find("name", "§ Member");
 
+    var welcomeEmbed = new discord.RichEmbed()
+         .setTitle(`${member} joined us!`)
+         .setColor("#44ffa8")
+         .setFooter("New member | ")
+         .setTimestamp(); 
+         
+       
+          
+
     if (!role) return;
 
 
@@ -64,7 +73,7 @@ bot.on("guildMemberAdd", member => {
 
     if (!channel) return;
 
-    channel.send(`Welcome in our server ${member}! \n **Type !help for more information!**`);
+    channel.send(welcomeEmbed); 
 
 
 
