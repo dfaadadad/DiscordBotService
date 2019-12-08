@@ -61,7 +61,7 @@ bot.on("guildMemberAdd", member => {
          .setFooter("New member | ")
          .setTimestamp(); 
 
-         
+
          
        
           
@@ -150,3 +150,4 @@ bot.on("message", async message => {
 
 
 bot.login(process.env.token);
+
