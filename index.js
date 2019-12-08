@@ -124,8 +124,9 @@ bot.on("message", async message => {
      return message.channel.send("Please do not swear!").then(msg => msg.delete(3000)); 
 
 
-
      
+
+
 
     }
 
