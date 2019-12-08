@@ -72,6 +72,9 @@ bot.on("guildMemberAdd", member => {
     if (!role) return;
 
 
+
+    
+
     member.addRole(role); 
 
     var channel = member.guild.channels.find("name", "hi-and-bye");
