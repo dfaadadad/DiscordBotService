@@ -59,9 +59,8 @@ bot.on("guildMemberAdd", member => {
          .setTitle(`${member} joined us!`)
          .setColor("#44ffa8")
          .setFooter("New member ")
-         .addField("Welcome in **Discord Bot Service!** \n\n Type !help for more information!")
-         .setTimestamp();   
-         
+         .setTimestamp()   
+         .addField("Welcome in **Discord Bot Service!** \n\n Type !help for more information!");
          
 
          
@@ -75,7 +74,7 @@ bot.on("guildMemberAdd", member => {
 
     member.addRole(role); 
 
-    const channel = member.guild.channels.find("name", "hi-and-bye");
+    var channel = member.guild.channels.find("name", "hi-and-bye");
 
     if (!channel) return;
 
