@@ -46,7 +46,7 @@ bot.on("ready", async () => {
 
     console.log(`${bot.user.username} is now online!`)
 
-    bot.user.setActivity("!help | elit3 Dave", { type: "PLAYING" });
+    bot.user.setActivity("!help | by Dave", { type: "PLAYING" });
 
 });
 
