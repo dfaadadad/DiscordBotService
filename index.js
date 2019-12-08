@@ -60,6 +60,8 @@ bot.on("guildMemberAdd", member => {
          .setColor("#44ffa8")
          .setFooter("New member | ")
          .setTimestamp(); 
+
+         
          
        
           
