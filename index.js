@@ -73,7 +73,7 @@ bot.on("guildMemberAdd", member => {
 
 
 
-    
+
 
     member.addRole(role); 
 
@@ -125,6 +125,7 @@ bot.on("message", async message => {
 
 
 
+     
 
     }
 
