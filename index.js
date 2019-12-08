@@ -58,9 +58,13 @@ bot.on("guildMemberAdd", member => {
     var welcomeEmbed = new discord.RichEmbed()
          .setTitle(`${member} joined us!`)
          .setColor("#44ffa8")
-         .setFooter("New member | ")
-         .setTimestamp(); 
+         .setFooter("New member ")
+         .addField("Welcome in **Discord Bot Service!** \n\n Type !help for more information!")
+         .setTimestamp();   
+         
+         
 
+         
 
          
        
